@@ -1,0 +1,14 @@
+{
+  "name": "herowo-canvas",
+  "scripts": {
+    "build": "esbuild ./src/CanvasMapRenderer.ts --bundle --outfile=temp/chunk.js --format=cjs && swc temp/chunk.js -o temp2/bundle.js && node ./node_modules/requirejs/bin/r.js -convert temp2 dist"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "@swc/cli": "^0.1.62",
+    "@swc/core": "^1.3.66",
+    "esbuild": "^0.18.9",
+    "requirejs": "^2.3.6",
+    "typescript": "^5.1.3"
+  }
+}

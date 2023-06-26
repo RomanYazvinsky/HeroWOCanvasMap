@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+     "lib": [
+       "ES2022",
+       "dom"
+     ],
+    "outDir": "dist",
+    "moduleResolution": "Node",
+    // "moduleDetection": "auto",                        /* Control what method is used to detect module-format JS files. */
+
+    /* Modules */
+    "module": "ES2022",                                /* Specify what module code is generated. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+
+    /* Type Checking */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+     "strictNullChecks": true,
+     "strictFunctionTypes": true,                      /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. */
+     "strictBindCallApply": true,                      /* Check that the arguments for 'bind', 'call', and 'apply' methods match the original function. */
+     "strictPropertyInitialization": true,             /* Check for class properties that are declared but not set in the constructor. */
+
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  }
+}
